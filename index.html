@@ -6,12 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Inner Circle</title>
   <link rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
   <header>
     <a id="logo" href="/">
-      <img src="images/logo-short.svg" width="54" height="52.5">
+      <img src="images/logo-short.svg" width="54" height="52.5" alt="logo">
     </a>
     <nav>
       <a class="nav-item" href="#">Stretching</a>
@@ -20,19 +21,19 @@
       <a class="nav-item" href="#">About</a>
       <a class="nav-item" href="#">Contact</a>
     </nav>
-    <button class="primary-btn">Buy a plan</button>
+    <button class="primary-btn" aria-label="buy a plan">Buy a plan</button>
   </header>
   <main>
     <section class="hero-shot">
       <div class="hero-shot-item">
-        <img src="images/hero-shot.png" width="850" height="850">
+        <img src="images/hero-shot.png" width="850" height="850" alt="hero shot">
       </div>
       <div class="hero-shot-item">
         <div class="hero-shot-text">
           <p>Desk work doesn’t have to drain you.</p>
           <p>Our wellness plans ease tension, boost energy, and keep you at your best. </p>
           <p>Start today for a healthier, happier work life.</p>
-          <button class="secondary-button">Buy a plan</button>
+          <button class="secondary-button" aria-label="buy a plan">Buy a plan</button>
         </div>
       </div>
     </section>
@@ -42,6 +43,34 @@
         <div class="banner-item"><span>Wellness Circles</span></div>
         <div class="banner-item"><span>Group Trainings</span></div>
         <div class="banner-item"><span>Workplace Essentials</span></div>
+      </div>
+    </section>
+    <section class="about-plan">
+      <img src="images/plan-left-img.png" id="planLeftImg" alt="plan left image" width="377" height="565">
+      <div class="about-plan-inner">
+        <p>Your well-being isn’t a luxury—it’s the foundation for focus, energy, and success.</p>
+        <p>Prioritize wellness today and feel the difference every day. The right plan makes it simple to take care of
+          yourself while you work.</p>
+        <p>Choose a plan that fits your needs, goals, and schedule—so wellness works for you, not the other way around.
+        </p>
+      </div>
+      <button class="secondary-button" aria-label="buy a plan">Buy a plan</button>
+      <img src="images/plan-right-img.png" id="planRightImg" alt="plan right image" width="472" height="565.5">
+    </section>
+    <section id="about">
+      <div class="about-img">
+        <img src="images/about-img.png" alt="the owner" width="358" height="485.5">
+      </div>
+      <div class="about-info">
+        <span class="owner-name">Jackie dievikj</span>
+        <p>I’m Jackie, a developer by trade and a wellness enthusiast at heart. Building websites is what I do, but
+          building a healthier, calmer life is what I care about most. This space brings both worlds together — a place
+          where design meets mindfulness, and where small steps toward well-being can make a big difference.</p>
+        <button class="primary-btn" aria-label="contact">Contact</button>
+      </div>
+      <div class="about-ui-el">
+        <span>MEET THE</span>
+        <span>FOUNDER</span>
       </div>
     </section>
   </main>

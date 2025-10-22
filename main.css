@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Domine";
+  src: url(fonts/Domine-Regular.woff2);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Domine";
+  src: url(fonts/Domine-Bold.woff2);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "DM Sans";
+  src: url(fonts/DMSans-Regular.woff2);
+  font-weight: 400;
+}
+
+* {
+  text-decoration: none;
+  color: #2D3E52;
+  border: none;
+  background: none;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: "Domine";
+}
+
+.primary-btn {
+  background-color: #C47624;
+  color: #fff;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  border-radius: 30px;
+  box-shadow: #DDBCAD 2px 2px 4px;
+}
+
+header {
+  background-color: #BCCACD;
+}
+
+nav a {
+  font-family: 'DM Sans';
+  font-size: 24px;
+  color: #2D3E52;
+}
