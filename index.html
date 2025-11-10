@@ -11,24 +11,29 @@
 
 <body>
   <header>
-    <a id="logo" href="/">
-      <img src="images/logo-short.svg" width="54" height="52.5" alt="logo">
-    </a>
-    <nav>
-      <a class="nav-item" href="#">Stretching</a>
-      <a class="nav-item" href="javascript:;">Workouts</a>
-      <a class="nav-item" href="javascript:void(0)">Community</a>
-      <a class="nav-item" href="#">About</a>
-      <a class="nav-item" href="#">Contact</a>
-    </nav>
-    <button class="primary-btn" aria-label="buy a plan">Buy a plan</button>
+    <div class="max-width-container header-container">
+      <a id="logo" href="/">
+        <img src="images/logo-short.svg" width="54" height="52.5" alt="logo">
+      </a>
+      <nav>
+        <a class="nav-item" href="#">Stretching</a>
+        <a class="nav-item" href="javascript:;">Workouts</a>
+        <a class="nav-item" href="javascript:void(0)">Community</a>
+        <a class="nav-item" href="#">About</a>
+        <a class="nav-item" href="#">Contact</a>
+      </nav>
+      <button class="primary-btn" aria-label="buy a plan">Buy a plan</button>
+      <button class="burger-btn" aria-label="burger button">
+        <img src="images/burger-btn.svg" alt="burger button" width="24" height="24">
+      </button>
+    </div>
   </header>
   <main>
     <section class="hero-shot">
       <div class="hero-shot-item">
         <img src="images/hero-shot.png" width="850" height="850" alt="hero shot">
       </div>
-      <div class="hero-shot-item">
+      <div class="hero-shot-item text-container">
         <div class="hero-shot-text">
           <p>Desk work doesn’t have to drain you.</p>
           <p>Our wellness plans ease tension, boost energy, and keep you at your best. </p>
@@ -39,6 +44,10 @@
     </section>
     <section class="marketing-banner">
       <div class="banner-track">
+        <div class="banner-item"><span>1:1 Coaching</span></div>
+        <div class="banner-item"><span>Wellness Circles</span></div>
+        <div class="banner-item"><span>Group Trainings</span></div>
+        <div class="banner-item"><span>Workplace Essentials</span></div>
         <div class="banner-item"><span>1:1 Coaching</span></div>
         <div class="banner-item"><span>Wellness Circles</span></div>
         <div class="banner-item"><span>Group Trainings</span></div>
@@ -73,6 +82,47 @@
         <span>FOUNDER</span>
       </div>
     </section>
+    <section id="workouts">
+      <div class="workout-item">
+        <div class="title">1:1 Coaching</div>
+        <div class="text">1:1 coaching is a personalized space where we focus entirely on your goals, challenges, and
+          growth. Together, we’ll create clear steps to help you build balance, confidence, and sustainable well-being.
+        </div>
+        <div class="img"><img src="images/prod-1.png" alt="prod 1"></div>
+        <ul class="list">
+          <li>Personalized guidance tailored to your unique needs</li>
+          <li>A safe, supportive space to explore challenges</li>
+          <li>Faster progress toward your goals with focused attention</li>
+        </ul>
+        <button class="secondary-button" aria-label="buy a plan">Buy a plan</button>
+      </div>
+      <div class="workout-item">
+        <div class="title">Wellness circles</div>
+        <div class="text">Wellness Circles are group sessions that bring people together to share, learn, and support
+          one another on their well-being journey. They offer a safe, uplifting space to connect, reflect, and grow in
+          community.</div>
+        <div class="img"><img src="images/prod-2.png" alt="prod 2"></div>
+        <ul class="list">
+          <li>Connection with like-minded people who understand your journey</li>
+          <li>A supportive community that encourages accountability and growth</li>
+          <li>Shared wisdom, inspiration, and fresh perspectives</li>
+        </ul>
+        <button class="secondary-button" aria-label="buy a plan">Buy a plan</button>
+      </div>
+      <div class="workout-item">
+        <div class="title">Group Trainings</div>
+        <div class="text">Group training combines expert guidance with the energy of a supportive group, making wellness
+          practices more engaging and fun. It’s a powerful way to stay motivated, learn together, and grow alongside
+          others.</div>
+        <div class="img"><img src="images/prod-3.png" alt="prod 3"></div>
+        <ul class="list">
+          <li>Expert-led sessions with structured guidance</li>
+          <li>Accountability through group commitment</li>
+          <li>A sense of community that makes wellness more enjoyable</li>
+        </ul>
+        <button class="secondary-button" aria-label="buy a plan">Buy a plan</button>
+      </div>
+    </section>
   </main>
   <div class="first-comment">
     <!-- First Comment Instructor -->
@@ -85,7 +135,6 @@
     <!-- First Comment Kristijan -->
     <!-- First Comment Elizabeta -->
   </div>
-
 
 </body>
 
