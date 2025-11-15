@@ -435,4 +435,39 @@ footer {
   .header-container .primary-btn {
     margin-left: auto;
   }
+footer {
+  flex-direction: column;
+  padding: 25px 20px;
+  gap: 30px;
 }
+
+.footer-left {
+  max-width: 100%;
+  width: 100%;
+  gap: 25px;
+}
+
+.footer-links {
+  flex-direction: column;
+  gap: 25px;
+}
+
+.footer-title {
+  font-size: 20px;
+}
+
+.footer-list a {
+  font-size: 18px;
+}
+
+.footer-rights {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.footer-right {
+  display: none;
+}
+}
+
