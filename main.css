@@ -258,12 +258,13 @@ nav a {
   justify-content: center;
   margin-left: 15px;
   align-items: flex-start;
-  max-width: 30%;
+  max-width: 50%;
   position: relative;
 }
 
 .about-info .primary-btn {
   margin-top: 15px;
+
 }
 
 .about-ui-el {
@@ -443,7 +444,7 @@ footer {
     margin-left: auto;
   }
 
-  .about-plan-inner{
+  /* .about-plan-inner{
     display: flex;
     justify-content:flex-start;
     z-index: 2;
@@ -475,9 +476,24 @@ margin-right: auto;
 margin-left: 110px;
 background-color: #C47624;
 font-size: 12px;
+} */
+
+#planRightImg{
+  display: none;
 }
 
+#planLeftImg{
+ left: auto;
+ right: 0;
+}
 
+.about-plan{
+  height: auto;
+}
+
+.about-plan .secondary-button{
+  z-index: 1;
+}
 
 
 }
