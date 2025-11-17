@@ -436,15 +436,18 @@ footer {
     margin-left: auto;
   }
 }
-@media(max-width: 400px) {
+@media(max-width: 768px) {
 
 .hero-shot p {
   font-size: 18px;
   
   
 }  
+.hero-shot{
+  flex-direction: column;
+}
 .hero-shot-item img {
-  width: 200px;
-  height: 70%;
+  height: auto;
+  width: 100%;
 }
 }
