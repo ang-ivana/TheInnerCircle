@@ -416,8 +416,16 @@ footer {
   height: 100%;
 }
 
+#closeBurger {
+  display: none;
+}
+
 
 @media(max-width: 768px) {
+  #closeBurger {
+    display: block;
+  }
+
   nav {
     position: fixed;
     flex-direction: column;
